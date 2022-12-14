@@ -5,3 +5,4 @@ class AddSnackForm(FlaskForm):
     
     name = StringField('Snack Name')
     price = FloatField('Price in USD')
+    quantity = FloatField('Amount of Snack')
